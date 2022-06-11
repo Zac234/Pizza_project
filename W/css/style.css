@@ -1,8 +1,43 @@
-@media screen and(min-width:400px) {
+
+
+
+
+
+
+
+
+
+
+
+/*this whole section is for page 2 trying to get individual cards for menu Items.*/
+#body2{
+    margin: 0px;
+    padding:0px;
+    width: 100%;
+
+}
+#head2{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    background-color: coral;
     
 }
+#title2{
+    justify-self: start;
 
+}
+#page_content2{
+    display: grid;
+    width: 100%;
+    place-items: center;
+    margin: 0px;
+    padding: 0px;
+    background-color: salmon;
+}
+.main_card1{
+    width:250px;
+    margin: 9px;
+    padding: 6px;
+    box-shadow: 3px 3px 9px grey;
 
-@media screen and (min-width:900px) {
-    
 }
