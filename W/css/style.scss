@@ -1,4 +1,36 @@
 /*this will be the space for the home page css*/
+#body1{
+    margin: 0px;
+    padding: 0px;
+    width: 100%;
+    background-color: darkgrey;
+}
+#head1{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    background-color: coral;
+}
+#Title{
+    place-items: center;
+}
+#nav1{
+    justify-self: end;
+}
+#content1{
+    display: grid;
+    place-items: center;
+
+
+}
+#about{
+    font-family: Arial, Helvetica, sans-serif;
+    width: 150px;
+}
+#story{
+    width:250px;
+    box-shadow: 5px 5px 10px lightgray;
+
+}
 
 
 
