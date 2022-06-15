@@ -22,7 +22,14 @@
   place-items: center;
   margin: 0px;
   padding: 0px;
-  background-color: salmon;
+}
+
+#card_container > .main_card1 {
+  width: 300px;
+  height: 350px;
+  box-shadow: 5px 5px 10px gray;
+  border-radius: 3px;
+  margin-bottom: 50px;
 }
 
 /*this will be the space for the location and contact information page 3*//*# sourceMappingURL=style.css.map */
