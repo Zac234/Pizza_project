@@ -10,6 +10,8 @@
 
 
 
+
+
 /*this whole section is for page 2 trying to get individual cards for menu Items. site starting at 300px*/
 #body2{
     margin: 0px;
@@ -36,11 +38,28 @@
     
 }
 #card_container>.main_card1{
-    width:300px;
+    width:250px;
     height:350px;
     box-shadow: 5px 5px 10px gray;
     border-radius: 3px;
     margin-bottom: 50px;
+    background-color: lightgrey;
+}
+@media screen and(min-width:700px) {
+    #card_container{
+        display:grid;
+        grid-template-columns: 1fr 1fr;
+        column-gap: 50px;
+    }
+    
+}
+@media screen and (min-width:1000px) {
+    #card_container{
+        display:grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        column-gap: 50px;
+    }
+    
 }
 
 
