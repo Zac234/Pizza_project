@@ -10,8 +10,8 @@
     grid-template-columns: 1fr 1fr 1fr;
     background-color: coral;
 }
-#Title{
-    place-items: center;
+#Title1{
+    justify-self: start;
 }
 #nav1{
     justify-self: end;
@@ -30,6 +30,22 @@
     width:250px;
     box-shadow: 5px 5px 10px lightgray;
 
+}
+
+
+@media screen and (min-width: 700px) {
+    #content1{
+        display: grid;
+        grid-template-columns: 1fr;
+        
+    }
+   
+    #story{
+        font-size: large;
+        font-weight: bold;
+        width:100%;
+    }
+    
 }
 
 
@@ -56,6 +72,9 @@
     grid-template-columns: 1fr 1fr 1fr;
     background-color: coral;
     
+}
+#nav2{
+    justify-self: end;
 }
 #title2{
     justify-self: start;
