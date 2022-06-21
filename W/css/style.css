@@ -12,8 +12,13 @@
   background-color: coral;
 }
 
-#Title {
-  place-items: center;
+#Logo {
+  width: 75px;
+  height: 75px;
+}
+
+#Title1 {
+  justify-self: center;
 }
 
 #nav1 {
@@ -35,6 +40,20 @@
   box-shadow: 5px 5px 10px lightgray;
 }
 
+@media screen and (min-width: 700px) {
+  #content1 {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+
+  #story {
+    width: 500px;
+    box-shadow: 5px 5px 10px lightgray;
+    font-size: large;
+    font-weight: bold;
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+}
 /*this whole section is for page 2 trying to get individual cards for menu Items. site starting at 300px*/
 #body2 {
   margin: 0px;
@@ -46,6 +65,10 @@
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   background-color: coral;
+}
+
+#nav2 {
+  justify-self: end;
 }
 
 #title2 {

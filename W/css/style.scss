@@ -10,8 +10,12 @@
     grid-template-columns: 1fr 1fr 1fr;
     background-color: coral;
 }
+#Logo{
+    width: 75px;
+    height: 75px;
+}
 #Title1{
-    justify-self: start;
+    justify-self: center;
 }
 #nav1{
     justify-self: end;
@@ -36,14 +40,17 @@
 @media screen and (min-width: 700px) {
     #content1{
         display: grid;
-        grid-template-columns: 1fr;
+        grid-template-columns: 1fr ;
         
     }
    
     #story{
+        width:500px;
+        box-shadow: 5px 5px 10px lightgray;
         font-size: large;
         font-weight: bold;
-        width:100%;
+        grid-template-columns: 1fr 1fr 1fr;
+        
     }
     
 }
