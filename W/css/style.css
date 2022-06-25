@@ -23,6 +23,24 @@
 
 #nav1 {
   justify-self: end;
+  font-weight: bolder;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#menu1 {
+  margin: 5px;
+  background-color: coral;
+  box-shadow: 1px 1px 1px black;
+  font-weight: bold;
+  border-radius: 15px;
+}
+
+#LACI1 {
+  margin: 5px;
+  background-color: coral;
+  box-shadow: 1px 1px 1px black;
+  font-weight: bold;
+  border-radius: 15px;
 }
 
 #contact {
@@ -131,6 +149,22 @@
   justify-self: end;
 }
 
+#home2 {
+  margin: 5px;
+  background-color: coral;
+  box-shadow: 1px 1px 1px black;
+  font-weight: bold;
+  border-radius: 15px;
+}
+
+#LCI2 {
+  margin: 5px;
+  background-color: coral;
+  box-shadow: 1px 1px 1px black;
+  font-weight: bold;
+  border-radius: 15px;
+}
+
 #title2 {
   justify-self: start;
 }
@@ -143,6 +177,13 @@
   padding: 0px;
 }
 
+#Apps {
+  font-weight: bolder;
+  font-size: larger;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 30px;
+}
+
 #card_container > .main_card1 {
   width: 250px;
   height: 350px;
@@ -152,13 +193,40 @@
   background-color: lightgrey;
 }
 
+#foot2 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  background-color: gray;
+}
+
+#foot_phone {
+  display: contents;
+  justify-self: end;
+}
+
+#foot_author {
+  display: none;
+}
+
 /* this section is for the menu Items, unfortunately I have to do the mostly individually but thats why I am doing this section last*/
 @media screen and (min-width: 700px) {
+  #Apps {
+    justify-self: start;
+  }
+
   #card_container {
     display: grid;
     grid-template-columns: 1fr 1fr;
     -moz-column-gap: 50px;
          column-gap: 50px;
+  }
+
+  #foot_phone {
+    display: none;
+  }
+
+  #foot_author {
+    display: contents;
   }
 }
 @media screen and (min-width: 1000px) {
