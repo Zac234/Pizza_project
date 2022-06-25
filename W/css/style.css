@@ -41,7 +41,30 @@
 
 #story {
   width: 250px;
+  justify-self: center;
   box-shadow: 5px 5px 10px lightgray;
+}
+
+#video_intro {
+  display: none;
+}
+
+#video {
+  width: 250px;
+  height: 200px;
+}
+
+#foot1 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+#foot-phone {
+  justify-self: end;
+}
+
+#foot_author {
+  display: none;
 }
 
 @media screen and (min-width: 700px) {
@@ -49,17 +72,46 @@
     display: none;
   }
 
-  #content1 {
+  #welcome {
     display: grid;
-    grid-template-columns: 1fr;
+    grid-template-columns: 1fr 1fr;
   }
 
   #story {
-    width: 500px;
+    width: 350px;
     box-shadow: 5px 5px 10px lightgray;
-    font-size: large;
+    font-size: medium;
     font-weight: bold;
     grid-template-columns: 1fr 1fr 1fr;
+  }
+
+  #video_intro {
+    display: contents;
+    font-size: large;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    width: 350px;
+  }
+
+  #video {
+    width: 350px;
+    margin-left: 10px;
+    margin-top: 25px;
+  }
+
+  #foot_phone {
+    display: none;
+  }
+
+  #foot_author {
+    display: contents;
+    justify-self: end;
+  }
+}
+@media only screen and (min-width: 985px) {
+  #video {
+    width: 625px;
+    height: 400px;
   }
 }
 /*this whole section is for page 2 trying to get individual cards for menu Items. site starting at 300px*/
@@ -149,6 +201,11 @@
 #map {
   width: 250px;
   height: 300px;
+}
+
+#foot3 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
 }
 
 @media only screen and (min-width: 700px) {
