@@ -210,7 +210,7 @@
     font-family: Arial, Helvetica, sans-serif;
     font-size: 30px;
 }
-#Sides{
+#Sides_main{
     font-weight: bolder;
     font-size: larger;
     font-family: Arial, Helvetica, sans-serif;
@@ -218,7 +218,23 @@
 }
 
 
-#card_container>.main_card1{
+#card_container1>.main_card1{
+    width:250px;
+    height:350px;
+    box-shadow: 5px 5px 10px gray;
+    border-radius: 3px;
+    margin-bottom: 50px;
+    background-color: lightgrey;
+}
+#card_container2>.main_card2{
+    width:250px;
+    height:350px;
+    box-shadow: 5px 5px 10px gray;
+    border-radius: 3px;
+    margin-bottom: 50px;
+    background-color: lightgrey;
+}
+#card_container3>.main_card3{
     width:250px;
     height:350px;
     box-shadow: 5px 5px 10px gray;
@@ -251,7 +267,17 @@
     #Apps{
         justify-self: start;;
     }
-    #card_container{
+    #card_container1{
+        display:grid;
+        grid-template-columns: 1fr 1fr;
+        column-gap: 50px;
+    }
+    #card_container2{
+        display:grid;
+        grid-template-columns: 1fr 1fr;
+        column-gap: 50px;
+    }
+    #card_container3{
         display:grid;
         grid-template-columns: 1fr 1fr;
         column-gap: 50px;
@@ -267,9 +293,25 @@
     
 }
 @media screen and (min-width:1000px) {
-    #card_container{
-        display:grid;
-        grid-template-columns: 1fr 1fr 1fr;
+   #menu_container{
+    display: grid;
+    
+
+   }
+    
+    #card_container1{
+        
+        
+        column-gap: 50px;
+    }
+    #card_container2{
+       
+        
+        column-gap: 50px;
+    }
+    #card_container3{
+        
+        
         column-gap: 50px;
     }
     
