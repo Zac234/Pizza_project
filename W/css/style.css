@@ -25,6 +25,10 @@
   justify-self: end;
 }
 
+#contact {
+  display: none;
+}
+
 #content1 {
   display: grid;
   place-items: center;
@@ -41,6 +45,10 @@
 }
 
 @media screen and (min-width: 700px) {
+  #phone1 {
+    display: none;
+  }
+
   #content1 {
     display: grid;
     grid-template-columns: 1fr;
