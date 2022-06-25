@@ -178,25 +178,16 @@
 }
 
 /*this will be the individual menu section css*/
+#menu_container {
+  width: 100%;
+}
+
 #Apps {
   font-weight: bolder;
   font-size: larger;
   font-family: Arial, Helvetica, sans-serif;
   font-size: 30px;
-}
-
-#Mains {
-  font-weight: bolder;
-  font-size: larger;
-  font-family: Arial, Helvetica, sans-serif;
-  font-size: 30px;
-}
-
-#Sides_main {
-  font-weight: bolder;
-  font-size: larger;
-  font-family: Arial, Helvetica, sans-serif;
-  font-size: 30px;
+  width: 250px;
 }
 
 #card_container1 > .main_card1 {
@@ -208,6 +199,14 @@
   background-color: lightgrey;
 }
 
+#Mains {
+  font-weight: bolder;
+  font-size: larger;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 30px;
+  width: 250px;
+}
+
 #card_container2 > .main_card2 {
   width: 250px;
   height: 350px;
@@ -215,6 +214,15 @@
   border-radius: 3px;
   margin-bottom: 50px;
   background-color: lightgrey;
+}
+
+#Sides_main {
+  font-weight: bolder;
+  font-size: larger;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 30px;
+  width: 250px;
+  height: 100px;
 }
 
 #card_container3 > .main_card3 {
@@ -243,57 +251,47 @@
 
 /* this section is for the menu Items, unfortunately I have to do the mostly individually but thats why I am doing this section last*/
 @media screen and (min-width: 700px) {
-  #Apps {
-    justify-self: start;
+  #menu_container {
+    display: grid;
+    grid-template-columns: 1fr;
+    margin: 0px;
+    padding: 0px;
   }
 
   #card_container1 {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    -moz-column-gap: 50px;
-         column-gap: 50px;
   }
 
   #card_container2 {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    -moz-column-gap: 50px;
-         column-gap: 50px;
   }
 
   #card_container3 {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    -moz-column-gap: 50px;
-         column-gap: 50px;
-  }
-
-  #foot_phone {
-    display: none;
-  }
-
-  #foot_author {
-    display: contents;
   }
 }
 @media screen and (min-width: 1000px) {
   #menu_container {
     display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
   }
 
   #card_container1 {
-    -moz-column-gap: 50px;
-         column-gap: 50px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
   }
 
   #card_container2 {
-    -moz-column-gap: 50px;
-         column-gap: 50px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
   }
 
   #card_container3 {
-    -moz-column-gap: 50px;
-         column-gap: 50px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
   }
 }
 /*this will be the space for the location and contact information page 3*/
