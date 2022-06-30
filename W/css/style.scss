@@ -198,19 +198,22 @@
 
 /*this will be the individual menu section css*/
 #menu_container{
-    width: 100%;
+    
+    place-content: center;
 }
 #Apps{
     font-weight: bolder;
-    font-size: larger;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 30px;
+    
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif cursive;
+    font-size: 25px;
+    font-style: italic;
     width: 250px;
+    height: 100px;
 }
 
 #card_container1>.main_card1{
     width:250px;
-    height:350px;
+    height:400px;
     box-shadow: 5px 5px 10px gray;
     border-radius: 3px;
     margin-bottom: 50px;
@@ -219,9 +222,10 @@
 #Mains{
     font-weight: bolder;
     font-size: larger;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 30px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif cursive;
+    font-size: 25px;
     width: 250px;
+    font-style: italic;
 }
 #card_container2>.main_card2{
     width:250px;
@@ -234,10 +238,11 @@
 #Sides_main{
     font-weight: bolder;
     font-size: larger;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 30px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif cursive;
+    font-size: 25px;
     width: 250px;
     height: 100px;
+    font-style: italic;
 }
 
 #card_container3>.main_card3{
@@ -266,7 +271,23 @@
 
 
 /* this section is for the menu Items, unfortunately I have to do the mostly individually but thats why I am doing this section last*/
+.main_card1>#App1{
+    
 
+}
+#Calamari{
+    width: 250px;
+    height:225px;
+}
+
+.main_card1>#App2{
+
+}
+#Chicken_wings{
+    width: 250px;
+    height:225px;
+
+}
 
 @media screen and(min-width:700px) {
     
@@ -280,11 +301,13 @@
     #card_container1{
         display: grid;
         grid-template-columns: 1fr 1fr;
+        column-gap: 50px;
         
     }
     #card_container2{
         display: grid;
         grid-template-columns: 1fr 1fr;
+        column-gap: 50px;
         
 
 
@@ -292,6 +315,7 @@
     #card_container3{
         display: grid;
         grid-template-columns: 1fr 1fr;
+        column-gap: 50px;
     }
     
 }
@@ -299,22 +323,34 @@
    #menu_container{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    
+    width: 100%;
 
-   }
+    }
+    #Apps{
+        width: 100%;
+    }
     #card_container1{
         display: grid;
         grid-template-columns: 1fr 1fr 1fr;
+        column-gap: 50px;
 
     } 
+    #Mains{
+        width: 100%;
+    }
     #card_container2{
         display: grid;
         grid-template-columns: 1fr 1fr 1fr;
-    }   
+        column-gap: 50px;
+    } 
+    #Sides_main{
+        width:100%;
+    }  
     #card_container3{
         display: grid;
         grid-template-columns: 1fr 1fr 1fr;
-        
+        column-gap: 50px;
+
     }
    
     
@@ -340,6 +376,15 @@
     justify-self: end;
 
 }
+#home3{
+    border-radius: 15px;
+    background-color: coral;
+    margin-bottom: 5px;
+}
+#menu3{
+    border-radius: 15px;
+    background-color: coral;
+}
 
 
 #content3{
@@ -353,6 +398,7 @@
 #Contact{
     width: 250px;
     font-family: Arial, Helvetica, sans-serif;
+    margin-top: 10px;
 
 }
 #mobile{
@@ -376,6 +422,7 @@
 #foot3{
     display: grid;
     grid-template-columns: 1fr 1fr;
+    background-color: darkgray;
 }
 #foot_author{
     justify-self: end;
@@ -414,6 +461,17 @@
         
         box-shadow: 5px 5px 10px 
     }
+    #foot3{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        background-color: gray;
+    }
+    #foot_phone{
+        display:none;
+    }
+    #foot_authour{
+        display:contents;
 
+    }
     
 }
