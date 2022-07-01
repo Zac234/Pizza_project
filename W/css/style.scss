@@ -271,23 +271,41 @@
 
 
 /* this section is for the menu Items, unfortunately I have to do the mostly individually but thats why I am doing this section last*/
-.main_card1>#App1{
-    
-
-}
+/*this is the appitizer section*/
 #Calamari{
     width: 250px;
     height:225px;
 }
 
-.main_card1>#App2{
-
-}
 #Chicken_wings{
     width: 250px;
     height:225px;
 
 }
+#salad{
+    width: 250px;
+    height: 225px;
+
+}
+#Soup{
+    width: 250px;
+    height: 225px;
+
+}
+#mushroom{
+    width: 250px;
+    height: 225px;
+
+}
+#crab{
+    width: 250px;
+    height: 225px;
+
+}
+/*this is the mains/entree section*/
+
+
+
 
 @media screen and(min-width:700px) {
     
