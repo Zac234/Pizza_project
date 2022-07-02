@@ -179,6 +179,7 @@
 
 /*this will be the individual menu section css*/
 #menu_container {
+  width: 100;
   place-content: center;
 }
 
@@ -211,7 +212,43 @@
 
 #card_container2 > .main_card2 {
   width: 250px;
-  height: 350px;
+  height: 400px;
+  box-shadow: 5px 5px 10px gray;
+  border-radius: 3px;
+  margin-bottom: 50px;
+  background-color: lightgrey;
+}
+
+#Pasta {
+  font-weight: bolder;
+  font-size: larger;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif cursive;
+  font-size: 25px;
+  width: 250px;
+  font-style: italic;
+}
+
+#card_container3 > .main_card3 {
+  width: 250px;
+  height: 400px;
+  box-shadow: 5px 5px 10px gray;
+  border-radius: 3px;
+  margin-bottom: 50px;
+  background-color: lightgrey;
+}
+
+#Special {
+  font-weight: bolder;
+  font-size: larger;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif cursive;
+  font-size: 25px;
+  width: 250px;
+  font-style: italic;
+}
+
+#special > .main_card5 {
+  width: 250px;
+  height: 475px;
   box-shadow: 5px 5px 10px gray;
   border-radius: 3px;
   margin-bottom: 50px;
@@ -228,7 +265,7 @@
   font-style: italic;
 }
 
-#card_container3 > .main_card3 {
+#card_container4 > .main_card4 {
   width: 250px;
   height: 350px;
   box-shadow: 5px 5px 10px gray;
@@ -285,6 +322,11 @@
 }
 
 /*this is the mains/entree section*/
+#gold_p {
+  width: 250px;
+  height: 225px;
+}
+
 @media screen and (min-width: 700px) {
   #menu_container {
     display: grid;
@@ -313,11 +355,24 @@
     -moz-column-gap: 50px;
          column-gap: 50px;
   }
+
+  #special {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    -moz-column-gap: 50px;
+         column-gap: 50px;
+  }
+
+  #card_container4 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    -moz-column-gap: 50px;
+         column-gap: 50px;
+  }
 }
 @media screen and (min-width: 1000px) {
   #menu_container {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
     width: 100%;
   }
 
@@ -343,11 +398,33 @@
          column-gap: 50px;
   }
 
-  #Sides_main {
+  #Pasta {
     width: 100%;
   }
 
   #card_container3 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    -moz-column-gap: 50px;
+         column-gap: 50px;
+  }
+
+  #Special {
+    width: 100%;
+  }
+
+  #special {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    -moz-column-gap: 50px;
+         column-gap: 50px;
+  }
+
+  #Sides_main {
+    width: 100%;
+  }
+
+  #card_container4 {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     -moz-column-gap: 50px;
