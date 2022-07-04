@@ -283,6 +283,44 @@
   background-color: lightgrey;
 }
 
+#Deserts {
+  font-weight: bolder;
+  font-size: larger;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif cursive;
+  font-size: 25px;
+  width: 250px;
+  height: 100px;
+  font-style: italic;
+}
+
+#card_container6 > .main_card6 {
+  width: 250px;
+  height: 400px;
+  box-shadow: 5px 5px 10px gray;
+  border-radius: 3px;
+  margin-bottom: 50px;
+  background-color: lightgrey;
+}
+
+#Drinks {
+  font-weight: bolder;
+  font-size: larger;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif cursive;
+  font-size: 25px;
+  width: 250px;
+  height: 100px;
+  font-style: italic;
+}
+
+#card_container7 > .main_card7 {
+  width: 250px;
+  height: 400px;
+  box-shadow: 5px 5px 10px gray;
+  border-radius: 3px;
+  margin-bottom: 50px;
+  background-color: lightgrey;
+}
+
 #foot2 {
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -361,7 +399,66 @@
   height: 225px;
 }
 
+/* this is for the second section of the menu items AKA pasta for now*/
+#Alfredo {
+  width: 250px;
+  height: 225px;
+}
+
+#bolognese {
+  width: 250px;
+  height: 225px;
+}
+
+#pesto {
+  width: 250px;
+  height: 225px;
+}
+
+#lasagna {
+  width: 250px;
+  height: 225px;
+}
+
+#MAC {
+  width: 250px;
+  height: 225px;
+}
+
+#ravi {
+  width: 250px;
+  height: 225px;
+}
+
 #gold_p {
+  width: 250px;
+  height: 225px;
+}
+
+/*this is the css for the sides portion of the menu*/
+#sides_list {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
+  font-weight: bold;
+  font-size: large;
+}
+
+/*this si the css for the desserts menu*/
+#Tiramisu {
+  width: 250px;
+  height: 225px;
+}
+
+#Gel {
+  width: 250px;
+  height: 225px;
+}
+
+#lava {
+  width: 250px;
+  height: 225px;
+}
+
+#crumb {
   width: 250px;
   height: 225px;
 }
@@ -403,6 +500,20 @@
   }
 
   #card_container4 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    -moz-column-gap: 50px;
+         column-gap: 50px;
+  }
+
+  #card_container6 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    -moz-column-gap: 50px;
+         column-gap: 50px;
+  }
+
+  #card_container7 {
     display: grid;
     grid-template-columns: 1fr 1fr;
     -moz-column-gap: 50px;
@@ -468,6 +579,28 @@
   }
 
   #card_container4 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    -moz-column-gap: 50px;
+         column-gap: 50px;
+  }
+
+  #Desserts {
+    width: 100%;
+  }
+
+  #card_container6 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    -moz-column-gap: 50px;
+         column-gap: 50px;
+  }
+
+  #Drinks {
+    width: 100%;
+  }
+
+  #card_container7 {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     -moz-column-gap: 50px;
