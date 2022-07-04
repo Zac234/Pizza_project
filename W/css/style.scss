@@ -10,7 +10,7 @@
     grid-template-columns: 1fr 1fr 1fr;
     background-color: coral;
 }
-#Logo{
+#Logo1{
     width: 75px;
     height: 75px;
 }
@@ -46,18 +46,20 @@
 #content1{
     display: grid;
     place-items: center;
+    background-color: black;
 
 
 }
 #about{
     font-family: Arial, Helvetica, sans-serif;
     width: 150px;
+    color: white;
 }
 #story{
     width:250px;
     justify-self: center;
-
-    box-shadow: 5px 5px 10px lightgray;
+    background-color: lightgray;
+    box-shadow: 5px 5px 10px white;
 
 }
 #video_intro{
@@ -113,6 +115,8 @@
         font-family: Arial, Helvetica, sans-serif;
         font-weight: bold;
         width: 350px;
+        color: white;
+
 
         
     }
@@ -193,7 +197,13 @@
     place-items: center;
     margin: 0px;
     padding: 0px;
+    background-color: black;
     
+}
+#title_menu{
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
 }
 
 /*this will be the individual menu section css*/
@@ -209,11 +219,12 @@
     font-style: italic;
     width: 250px;
     height: 100px;
+    color: white;
 }
 
 #card_container1>.main_card1{
     width:250px;
-    height:400px;
+    height:425px;
     box-shadow: 5px 5px 10px gray;
     border-radius: 3px;
     margin-bottom: 50px;
@@ -226,6 +237,7 @@
     font-size: 25px;
     width: 250px;
     font-style: italic;
+    color:white;
 }
 #pizza{
     font-weight: bolder;
@@ -234,6 +246,7 @@
     font-size: 25px;
     width: 250px;
     font-style: italic;
+    color: white;
 }
 #card_container2>.main_card2{
     width:250px;
@@ -251,6 +264,7 @@
     font-size: 25px;
     width: 250px;
     font-style: italic;
+    color:white
 }
 #card_container3>.main_card3{
     width:250px;
@@ -267,6 +281,7 @@
     font-size: 25px;
     width: 250px;
     font-style: italic;
+    color:white
 }
 
 #special>.main_card5{
@@ -285,6 +300,7 @@
     width: 250px;
     height: 100px;
     font-style: italic;
+    color:white;
 }
 #card_container4>.main_card4{
     width:250px;
@@ -302,6 +318,7 @@
     width: 250px;
     height: 100px;
     font-style: italic;
+    color: white;;
 }
 #card_container6>.main_card6{
     width:250px;
@@ -319,6 +336,7 @@
     width: 250px;
     height: 100px;
     font-style: italic;
+    color:white;
 }
 #card_container7>.main_card7{
     width:250px;
@@ -519,6 +537,12 @@
         grid-template-columns: 1fr 1fr;
         column-gap: 50px;
     }
+    #foot_phone{
+        display:none
+    }
+    #foot_author{
+        display:contents
+    }
     
 }
 @media screen and (min-width:1000px) {
@@ -632,12 +656,15 @@
     place-items: center;
     margin: 0px;
     padding: 0px;
+    background-color: black;
+
     
 }
 #Contact{
     width: 250px;
     font-family: Arial, Helvetica, sans-serif;
     margin-top: 10px;
+    color: white;
 
 }
 #mobile{
@@ -662,6 +689,7 @@
     display: grid;
     grid-template-columns: 1fr 1fr;
     background-color: darkgray;
+    
 }
 #foot_author{
     justify-self: end;
